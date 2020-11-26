@@ -117,5 +117,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-badge]: https://img.shields.io/github/license/sanoofp/is-malayalam?style=for-the-badge
 [license-url]: https://github.com/sanoofp/is-malayalam/blob/master/LICENSE
 [github-downloads-badge]: https://img.shields.io/github/downloads/sanoofp/is-malayalam/total?style=for-the-badge
-[npm-size-badge]: https://img.shields.io/bundlephobia/min/is-malayalam
+[npm-size-badge]: https://img.shields.io/bundlephobia/min/is-malayalam?style=for-the-badge
 [title-url]: docs/title.png
