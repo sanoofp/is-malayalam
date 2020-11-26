@@ -17,7 +17,9 @@ const isMalayalam = (string) => {
 
   for (let index = 0; index < length; index++) {
     const charCode = string.charCodeAt(index);
-    if (MALAYALAM_MIN_UNICODE >= 3328 && charCode <= MALAYALAM_MAX_UNICODE) return true;
+    if (charCode >= MALAYALAM_MIN_UNICODE && charCode <= MALAYALAM_MAX_UNICODE) {
+      return true;
+    }
   }
 
   return false;
