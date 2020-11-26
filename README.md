@@ -60,7 +60,7 @@ This function checks for the Unicode of each character in the given string. And 
 ## Sources
 
 - [Malayalam Unicode - Wikipedia](https://en.wikipedia.org/wiki/Malayalam_script#Unicode)
-- [Unicode chart](https://www.unicode.org/charts/PDF/U0D00.pdf)
+- [Malayalam Unicode Chart](https://www.unicode.org/charts/PDF/U0D00.pdf)
 - [charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 
 <!-- GETTING STARTED -->
