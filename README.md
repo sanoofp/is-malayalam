@@ -90,7 +90,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/sanoofp/is-malayalam/issues) for a list of proposed features (and known issues).
 
 ## License
 
