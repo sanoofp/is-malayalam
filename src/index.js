@@ -6,6 +6,7 @@
     - Unicode: 0D00 (0x0D00)
     - Unicode: 0D7F (0x0D7F)
 */
+
 const MALAYALAM_MIN_UNICODE = 3328; // 0x0D00
 const MALAYALAM_MAX_UNICODE = 3455; // 0x0D7F
 

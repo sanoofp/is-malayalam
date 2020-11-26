@@ -17,5 +17,8 @@
     "type": "git",
     "url": "https://github.com/sanoofp/is-malayalam.git"
   },
+  "bugs": {
+    "url": "https://github.com/sanoofp/is-malayalam/issues"
+  },
   "homepage": "https://github.com/sanoofp/is-malayalam#readme"
 }
