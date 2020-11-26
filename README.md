@@ -3,7 +3,7 @@
 [![Contributors][contributors-badge]][contributors-url]
 [![Forks][forks-badge]][forks-url]
 [![Issues][issues-badge]][issues-url]
-![Downloads][github-downloads-badge]
+![Minified size][npm-size-badge]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -69,11 +69,11 @@ npm install is-malayalam --save
 Then, use the script in your project;
 
 ```JS
-const isMalyalam = require("is-malayalam");
+const isMalayalam = require("is-malayalam");
 
-console.log(isMalyalam("മലയാളം")) // True
-console.log(isMalyalam("Malayalam മലയാളം")) // True
-console.log(isMalyalam("Malayalam")) // False
+console.log(isMalayalam("മലയാളം")) // True
+console.log(isMalayalam("Malayalam മലയാളം")) // True
+console.log(isMalayalam("Malayalam")) // False
 ```
 
 <!-- CONTRIBUTING -->
@@ -117,4 +117,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-badge]: https://img.shields.io/github/license/sanoofp/is-malayalam?style=for-the-badge
 [license-url]: https://github.com/sanoofp/is-malayalam/blob/master/LICENSE
 [github-downloads-badge]: https://img.shields.io/github/downloads/sanoofp/is-malayalam/total?style=for-the-badge
+[npm-size-badge]: https://img.shields.io/bundlephobia/min/is-malayalam
 [title-url]: docs/title.png
