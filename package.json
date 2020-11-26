@@ -1,0 +1,16 @@
+{
+  "name": "is-malayalam",
+  "version": "1.0.0",
+  "description": "Script to check whether the provided string is Malayalam or not. 🎉",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "is-malayalam",
+    "malayalam",
+    "detect malayalam"
+  ],
+  "author": "sanoofp",
+  "license": "MIT"
+}
