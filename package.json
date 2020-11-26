@@ -1,6 +1,6 @@
 {
   "name": "is-malayalam",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Script to check whether the provided string is Malayalam or not. 🎉",
   "main": "src/index.js",
   "scripts": {
