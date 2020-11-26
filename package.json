@@ -12,5 +12,10 @@
     "detect malayalam"
   ],
   "author": "sanoofp",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanoofp/is-malayalam.git"
+  },
+  "homepage": "https://github.com/sanoofp/is-malayalam#readme"
 }
