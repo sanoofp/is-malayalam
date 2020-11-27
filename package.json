@@ -1,6 +1,6 @@
 {
   "name": "is-malayalam",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Script to check whether the provided string contains a Malayalam character. 🎉",
   "main": "src/index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sanoofp/is-malayalam/issues"
   },
-  "homepage": "https://github.com/sanoofp/is-malayalam#readme"
+  "homepage": "https://github.com/sanoofp/is-malayalam#readme",
+  "files": [
+    "src"
+  ]
 }

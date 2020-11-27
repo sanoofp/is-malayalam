@@ -1,8 +1,4 @@
-/* Source
-    - Wikipedia: https://en.wikipedia.org/wiki/Malayalam_script#Unicode
-    - Unicode chart: https://www.unicode.org/charts/PDF/U0D00.pdf
-
-  The Unicode block for Malayalam is U+0D00–U+0D7F:
+/* The Unicode block for Malayalam is U+0D00–U+0D7F:
     - Unicode: 0D00 (0x0D00)
     - Unicode: 0D7F (0x0D7F)
 */
