@@ -15,7 +15,7 @@
   <h3 align="center">is-malayalam</h3>
 
   <p align="center">
-    Script to check whether the provided string is Malayalam or not.
+    Script to check whether the provided string contains at least one Malayalam character.
     <br />
     <a href="https://github.com/sanoofp/is-malayalam"><strong>Explore the docs »</strong></a>
     <br />
@@ -48,7 +48,7 @@
 
 `is-malayalam` is a small javascript script to check whether the provided string contains at least one Malayalam character.
 
-This function checks for the Unicode of each character in the given string. And returns `true` if any of the Unicodes lies between `0D00` and `0D7F`
+This function checks for the Unicode of each character in the given string, and returns `true` if any of the Unicodes lies between `0D00` and `0D7F`
 
 ## Sources
 
