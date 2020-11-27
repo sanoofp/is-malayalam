@@ -11,7 +11,9 @@ const MALAYALAM_MIN_UNICODE = 3328; // 0x0D00
 const MALAYALAM_MAX_UNICODE = 3455; // 0x0D7F
 
 function isMalayalam(string) {
-  if (typeof string !== "string") return "";
+  if (typeof string !== "string") {
+    return new TypeError("Parameter is not a string");
+  }
 
   const length = string.length;
 

@@ -27,13 +27,9 @@
 <details >
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#sources">Sources</a>
-    </li>
     <li><a href="#basic-usage">Basic Usage</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#sources">Sources</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#license">License</a></li>
@@ -41,20 +37,6 @@
 
   </ol>
 </details>
-
-<!-- ABOUT THE PROJECT -->
-
-## About The Project
-
-`is-malayalam` is a small javascript script to check whether the provided string contains at least one Malayalam character.
-
-This function checks for the Unicode of each character in the given string, and returns `true` if any of the Unicodes lies between `0D00` and `0D7F`
-
-## Sources
-
-- [Malayalam Unicode - Wikipedia](https://en.wikipedia.org/wiki/Malayalam_script#Unicode)
-- [Malayalam Unicode Chart](https://www.unicode.org/charts/PDF/U0D00.pdf)
-- [charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 
 <!-- GETTING STARTED -->
 
@@ -75,6 +57,20 @@ console.log(isMalayalam("മലയാളം")) // True
 console.log(isMalayalam("Malayalam മലയാളം")) // True
 console.log(isMalayalam("Malayalam")) // False
 ```
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+`is-malayalam` is a small javascript script to check whether the provided string contains at least one Malayalam character.
+
+This function checks for the Unicode of each character in the given string, and returns `true` if any of the Unicodes lies between `0D00` and `0D7F`
+
+## Sources
+
+- [Malayalam Unicode - Wikipedia](https://en.wikipedia.org/wiki/Malayalam_script#Unicode)
+- [Malayalam Unicode Chart](https://www.unicode.org/charts/PDF/U0D00.pdf)
+- [charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 
 <!-- CONTRIBUTING -->
 
