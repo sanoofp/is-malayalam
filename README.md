@@ -53,9 +53,9 @@ Then, use the script in your project;
 ```JS
 const isMalayalam = require("is-malayalam");
 
-console.log(isMalayalam("മലയാളം")) // True
-console.log(isMalayalam("Malayalam മലയാളം")) // True
-console.log(isMalayalam("Malayalam")) // False
+console.log(isMalayalam("മലയാളം")) // true
+console.log(isMalayalam("Malayalam മലയാളം")) // true
+console.log(isMalayalam("Malayalam")) // false
 ```
 
 <!-- ABOUT THE PROJECT -->
@@ -64,13 +64,13 @@ console.log(isMalayalam("Malayalam")) // False
 
 `is-malayalam` is a small javascript script to check whether the provided string contains at least one Malayalam character.
 
-This function checks for the Unicode of each character in the given string, and returns `true` if any of the Unicodes lies between `0D00` and `0D7F`
+This function checks for the Unicode of each character in the given string, and returns `true` if any of the Unicodes lies between `U+0D00` and `U+0D7F`
 
 ## Sources
 
 - [Malayalam Unicode - Wikipedia](https://en.wikipedia.org/wiki/Malayalam_script#Unicode)
 - [Malayalam Unicode Chart](https://www.unicode.org/charts/PDF/U0D00.pdf)
-- [charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
+- [String.prototype.charCodeAt()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt)
 
 <!-- CONTRIBUTING -->
 
