@@ -1,5 +1,3 @@
-/* The Unicode block for Malayalam is U+0D00–U+0D7F */
-
 const MALAYALAM_MIN_UNICODE = 0x0d00;
 const MALAYALAM_MAX_UNICODE = 0x0d7f;
 
