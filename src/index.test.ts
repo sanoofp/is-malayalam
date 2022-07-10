@@ -1,4 +1,4 @@
-import isMalayalam from "./index";
+import { isMalayalam } from ".";
 
 test("Check with english characters", () => {
   expect(isMalayalam("Malayalam")).toBeFalsy();

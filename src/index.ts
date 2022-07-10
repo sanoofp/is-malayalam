@@ -1,4 +1,4 @@
-function isMalayalam(string: string): boolean {
+export function isMalayalam(string: string): boolean {
   const length = string.length;
   const MALAYALAM_MIN_UNICODE = 0x0d00;
   const MALAYALAM_MAX_UNICODE = 0x0d7f;
@@ -13,5 +13,3 @@ function isMalayalam(string: string): boolean {
 
   return false;
 }
-
-export default isMalayalam;

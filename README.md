@@ -51,7 +51,7 @@ npm install is-malayalam --save
 Then, use the script in your project;
 
 ```JS
-const isMalayalam = require("is-malayalam");
+const { isMalayalam } = require("is-malayalam");
 
 console.log(isMalayalam("മലയാളം")) // true
 console.log(isMalayalam("Malayalam മലയാളം")) // true

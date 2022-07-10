@@ -11,12 +11,10 @@ export default [
       {
         format: "cjs",
         file: pkg.main,
-        exports: "default",
       },
       {
         format: "es",
         file: pkg.module,
-        exports: "default",
       },
     ],
   },
