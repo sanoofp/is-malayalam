@@ -1,10 +1,12 @@
 {
   "name": "is-malayalam",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Script to check whether the provided string contains a Malayalam character. 🎉",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "start": "node src/index.js"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "keywords": [
     "is-malayalam",
@@ -22,6 +24,9 @@
   },
   "homepage": "https://github.com/sanoofp/is-malayalam#readme",
   "files": [
-    "src"
-  ]
+    "lib"
+  ],
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
