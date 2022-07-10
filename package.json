@@ -1,6 +1,6 @@
 {
   "name": "is-malayalam",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Script to check whether the provided string contains a Malayalam character. 🎉",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
