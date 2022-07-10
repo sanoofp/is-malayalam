@@ -2,10 +2,12 @@
   "name": "is-malayalam",
   "version": "2.0.0",
   "description": "Script to check whether the provided string contains a Malayalam character. 🎉",
-  "main": "lib/index.js",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c rollup.config.ts",
+    "dev": "rollup -c rollup.config.ts -w",
     "prepare": "npm run build"
   },
   "keywords": [
@@ -27,6 +29,10 @@
     "lib"
   ],
   "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rollup": "^2.76.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-dts": "^4.2.2",
     "typescript": "^4.7.4"
   }
 }
