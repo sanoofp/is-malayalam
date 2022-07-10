@@ -8,7 +8,8 @@
   "scripts": {
     "build": "rollup -c rollup.config.ts",
     "dev": "rollup -c rollup.config.ts -w",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "jest"
   },
   "keywords": [
     "is-malayalam",
@@ -30,9 +31,12 @@
   ],
   "devDependencies": {
     "@rollup/plugin-typescript": "^8.3.3",
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
     "rollup": "^2.76.0",
     "rollup-plugin-delete": "^2.0.0",
     "rollup-plugin-dts": "^4.2.2",
+    "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
   }
 }
