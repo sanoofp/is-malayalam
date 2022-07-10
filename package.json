@@ -1,6 +1,6 @@
 {
   "name": "is-malayalam",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Script to check whether the provided string contains a Malayalam character. 🎉",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
